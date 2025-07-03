@@ -30,7 +30,7 @@ The recommendation pipeline follows these key steps:
     * The model returns a high-dimensional vector (512 dimensions) for each product. This vector numerically represents the semantic meaning of the product's text.
 
 3.  **Dimensionality Reduction with PCA**:
-    * Working with 1536 dimensions is computationally expensive and can be noisy.
+    * Working with 512 dimensions is computationally expensive and can be noisy.
     * Principal Component Analysis (PCA) is used to reduce the dimensionality of the embedding vectors (down to 2 dimensions) while preserving the most important information.
 
 4.  **Clustering with K-Means**:
